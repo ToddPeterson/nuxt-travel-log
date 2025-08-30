@@ -14,6 +14,7 @@ export default withNuxt(
         indent: 2,
         semi: true,
       },
+      ignores: ['.pnpm-store/**'],
     },
     {
       rules: {
