@@ -8,9 +8,7 @@
 
     <div class="navbar-end">
       <AppThemeToggle />
-      <a class="btn btn-accent">
-        Sign In With Github <Icon name="tabler:brand-github" size="24" />
-      </a>
+      <AuthBtn />
     </div>
   </div>
 </template>
