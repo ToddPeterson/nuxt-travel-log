@@ -32,6 +32,9 @@ importers:
       vue-router:
         specifier: ^4.5.1
         version: 4.5.1(vue@3.5.20(typescript@5.9.2))
+      zod:
+        specifier: ^4.1.5
+        version: 4.1.5
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^5.2.1
@@ -39,6 +42,9 @@ importers:
       '@iconify-json/tabler':
         specifier: ^1.2.22
         version: 1.2.22
+      '@types/node':
+        specifier: ^24.3.0
+        version: 24.3.0
       daisyui:
         specifier: ^5.0.54
         version: 5.0.54
@@ -5315,6 +5321,9 @@ packages:
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
+  zod@4.1.5:
+    resolution: {integrity: sha512-rcUUZqlLJgBC33IT3PNMgsCq6TzLQEG/Ei/KTCU0PedSWRMAXoOUN+4t/0H+Q8bdnLPdqUYnvboJT0bn/229qg==}
+
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
 
@@ -6899,7 +6908,6 @@ snapshots:
   '@types/node@24.3.0':
     dependencies:
       undici-types: 7.10.0
-    optional: true
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -10728,8 +10736,7 @@ snapshots:
       magic-string: 0.30.18
       unplugin: 2.3.9
 
-  undici-types@7.10.0:
-    optional: true
+  undici-types@7.10.0: {}
 
   unenv@2.0.0-rc.19:
     dependencies:
@@ -11178,5 +11185,7 @@ snapshots:
       readable-stream: 4.7.0
 
   zod@3.25.76: {}
+
+  zod@4.1.5: {}
 
   zwitch@2.0.4: {}

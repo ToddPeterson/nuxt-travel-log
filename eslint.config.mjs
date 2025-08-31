@@ -18,6 +18,12 @@ export default withNuxt(
     },
     {
       rules: {
+
+        'ts/no-redeclare': ['off'],
+        'ts/consistent-type-definitions': ['error', 'type'],
+        'no-console': ['warn'],
+        'node/prefer-global/process': ['off'],
+        'node/no-process-env': ['error'],
         'perfectionist/sort-imports': [
           'error',
           {
