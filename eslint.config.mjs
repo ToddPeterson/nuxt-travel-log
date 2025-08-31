@@ -14,11 +14,10 @@ export default withNuxt(
         indent: 2,
         semi: true,
       },
-      ignores: ['.pnpm-store/**'],
+      ignores: ['.pnpm-store/**', '**/migrations/*'],
     },
     {
       rules: {
-
         'ts/no-redeclare': ['off'],
         'ts/consistent-type-definitions': ['error', 'type'],
         'no-console': ['warn'],

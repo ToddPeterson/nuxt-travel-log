@@ -22,6 +22,10 @@
     { "rule": "*semi", "severity": "off", "fixable": true }
   ],
 
+  // Use Nuxt's generated TypeScript configuration
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "typescript.suggest.autoImports": true,
+
   // Enable eslint for all supported languages
   "eslint.validate": [
     "javascript",
