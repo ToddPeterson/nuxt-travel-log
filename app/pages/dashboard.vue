@@ -23,14 +23,31 @@ function toggleSidebar() {
       </div>
 
       <div class="flex flex-col">
-        <SidebarBtn :show-label="isSidebarOpen" label="Locations" icon="tabler:map" href="/dashboard" />
-        <SidebarBtn :show-label="isSidebarOpen" label="Add Location" icon="tabler:circle-plus-filled" href="/dashboard/add" />
+        <SidebarBtn
+          :show-label="isSidebarOpen"
+          label="Locations"
+          icon="tabler:map"
+          href="/dashboard"
+        />
+        <SidebarBtn
+          :show-label="isSidebarOpen"
+          label="Add Location"
+          icon="tabler:circle-plus-filled"
+          href="/dashboard/add"
+        />
 
         <div class="divider" />
 
-        <SidebarBtn :show-label="isSidebarOpen" label="Sign Out" icon="tabler:logout-2" href="/sign-out" />
+        <SidebarBtn
+          :show-label="isSidebarOpen"
+          label="Sign Out"
+          icon="tabler:logout-2"
+          href="/sign-out"
+        />
       </div>
     </div>
-    <div class="flex-1" />
+    <div class="flex-1">
+      <NuxtPage />
+    </div>
   </div>
 </template>
