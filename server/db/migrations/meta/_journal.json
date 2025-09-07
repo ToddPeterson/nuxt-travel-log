@@ -15,6 +15,13 @@
       "when": 1756658414665,
       "tag": "0001_perfect_the_renegades",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1757265507676,
+      "tag": "0002_curved_havok",
+      "breakpoints": true
     }
   ]
 }
