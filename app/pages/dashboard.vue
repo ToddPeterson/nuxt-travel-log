@@ -13,7 +13,7 @@ function toggleSidebar() {
 
 <template>
   <div class="flex-1 flex">
-    <div class="bg-base-100 transition-all duration-300" :class="{ 'w-64': isSidebarOpen, 'w-16': !isSidebarOpen }">
+    <div class="bg-base-100 transition-all duration-300 flex-none" :class="{ 'w-64': isSidebarOpen, 'w-16': !isSidebarOpen }">
       <div
         class="flex cursor-pointer hover:bg-base-200 p-2"
         :class="{ 'justify-end': isSidebarOpen, 'justify-center': !isSidebarOpen }"
