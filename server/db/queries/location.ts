@@ -9,6 +9,12 @@ import { location as locationTable } from '../schema';
 
 const nanoid = customAlphabet('1234567890abcdefghijklmnopqrstuvwxyz', 5);
 
+export async function findLocations(userId: number) {
+  return db.query.location.findMany({
+    where: eq(locationTable.userId, userId),
+  });
+}
+
 export async function findLocationByName(location: InsertLocation, userId: number) {
   return db.query.location.findFirst({
     where: and(
